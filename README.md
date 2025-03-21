@@ -19,20 +19,20 @@ Questo è un progetto di gioco ispirato a Pong, sviluppato utilizzando Python e 
 
 ## Come Giocare
 
-- Usa le frecce su e giù per muovere la tua paddle (Player 1).
-- Usa `W` e `S` per muovere la paddle di Player 2.
+- Usa le frecce `SU` e `GIU'` per muovere il paddle del Player 1
+- Usa `W` e `S` per muovere il paddle del Player 2.
 - Il gioco si basa sulle meccaniche classiche di Pong, con il primo giocatore che arriva a un punteggio predeterminato che vince (in questo caso continua finche' non viene chiuso manualmente).
 
 ## Struttura del Codice
 
 - **Main**: Il codice principale dove vengono gestiti gli oggetti di gioco, il punteggio e gli eventi di gioco.
-- **Paddle**: Gestisce il movimento delle paddle e la loro interazione con la palla.
+- **Paddle**: Gestisce il movimento dei paddle e la loro interazione con la palla.
 - **Ball**: Gestisce il movimento e le collisioni della palla.
 - **Funzioni**: Contiene le funzioni di supporto come la visualizzazione del punteggio.
 
 ## Funzionalità
 
-- Grafica personalizzata per il campo di gioco e le paddle.
+- Grafica personalizzata per il campo di gioco e i paddle.
 - Musica di sottofondo  (i suoni per le azioni verranno aggiunti in seguito).
 - Gestione del punteggio e della partita.
 
